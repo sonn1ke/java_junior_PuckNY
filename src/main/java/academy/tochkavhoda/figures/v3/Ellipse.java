@@ -1,6 +1,6 @@
-package academy.tochkavhoda.figures.v2;
+package academy.tochkavhoda.figures.v3;
 
-import academy.tochkavhoda.figures.v2.iface.Stretchable;
+import academy.tochkavhoda.figures.v3.iface.Stretchable;
 
 import java.util.Objects;
 
