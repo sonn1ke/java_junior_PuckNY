@@ -150,17 +150,17 @@ public class TestCircle {
         Circle circle2 = new Circle(new Point(10, 10), 10);
         Circle circle3 = new Circle(new Point(10, 10), 20);
         Circle circle4 = new Circle(new Point(0, 0), 10);
-        assertEquals(circle1, circle2);
-        assertNotEquals(circle1, circle3);
-        assertNotEquals(circle1, circle4);
+            assertEquals(circle1, circle2);
+            assertNotEquals(circle1, circle3);
+            assertNotEquals(circle1, circle4);
     }
 
     @Test
-    @SuppressWarnings("unused")
-    public void testCircleFactory() {
-        Circle circle1 = CircleFactory.createCircle(new Point(0, 0), 1);
-        Circle circle2 = CircleFactory.createCircle(new Point(3, 4), 1);
-        Circle circle3 = CircleFactory.createCircle(new Point(10, 20), 1);
-        assertEquals(3, CircleFactory.getCircleCount());
+        @SuppressWarnings("unused")
+        public void testCircleFactory() {
+            Circle circle1 = CircleFactory.createCircle(new Point(0, 0), 1);
+            Circle circle2 = CircleFactory.createCircle(new Point(3, 4), 1);
+            Circle circle3 = CircleFactory.createCircle(new Point(10, 20), 1);
+            assertEquals(3, CircleFactory.getCircleCount());
     }
 }
